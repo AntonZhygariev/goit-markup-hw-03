@@ -315,6 +315,21 @@ body {
   margin: 30;
 } */
 
+.features,
+.skills,
+.team,
+.customers {
+  display: flex;
+  justify-content: center;
+}
+
+.features .item + .item,
+.skills .item + .item,
+.team .item + .item,
+.customers .item + .item {
+  margin-left: 30px;
+}
+
 /* Footer */
 .list.address {
   font-style: normal;

@@ -173,10 +173,19 @@ body {
   min-width: 73px;
 }
 
-.filter-menu {
+/* .filter-menu {
   margin-bottom: 34px;
   position: relative;
   align-self: flex-start;
+} */
+.filter-button-block {
+  display: flex;
+  margin-bottom: 34px;
+  justify-content: center;
+}
+
+.filter-button-block .item + .item {
+  margin-left: 8px;
 }
 
 .filter-button:hover,

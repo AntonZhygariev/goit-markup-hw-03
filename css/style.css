@@ -382,6 +382,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-top: 57px;
 }
 
 .develop {
@@ -397,6 +398,51 @@ body {
   background-color: var(--accent-color);
 }
 
-.address-contrainer {
+.footer-container {
   display: flex;
+}
+
+.logo-cont {
+  margin-top: 45px;
+  margin-bottom: 8px;
+}
+
+.address .item {
+  margin-bottom: 9px;
+}
+
+.address .item:last-child {
+  margin-bottom: 0;
+}
+
+.address-container {
+  margin-right: 69px;
+}
+
+.connect {
+  margin-right: 94px;
+}
+
+.connect .social {
+  margin-top: 20px;
+}
+
+.social {
+  display: flex;
+}
+
+.social .item + .item {
+  margin-left: 10px;
+}
+
+.subscribe .button {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.develop-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+  margin-bottom: 21px;
 }

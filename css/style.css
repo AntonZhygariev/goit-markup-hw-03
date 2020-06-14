@@ -12,16 +12,6 @@
   --text-bg-color: rgba(33, 150, 243, 0.9);
 }
 
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 a {
   text-decoration: none;
 }
@@ -97,6 +87,9 @@ body {
 
 .header-cont {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;
 }
 
 /* main */
@@ -121,6 +114,10 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  padding: 10px 32px;
+  min-width: 200px;
+  border-radius: 4px;
+  border: 1px solid transparent;
 }
 
 .filter-button {
@@ -130,6 +127,11 @@ body {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
+  display: inline-block;
+  padding: 6px 22px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  min-width: 73px;
 }
 
 .filter-button:hover,

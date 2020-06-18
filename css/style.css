@@ -23,6 +23,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+img {
+  display: block;
+}
+
 .list {
   list-style: none;
   padding: 0;
@@ -247,6 +251,10 @@ body {
   margin-top: 30px;
   margin-bottom: 10px;
 }
+/* 
+.team-content {
+  background: var(--white-color);
+} */
 
 .team-name {
   color: var(--title-text-color);
@@ -340,9 +348,14 @@ body {
   margin-left: 30px;
 }
 
-.features .item,
+.features .item {
+  width: 270px;
+}
+
 .team .item {
   width: 270px;
+  background: var(--white-color);
+  border-radius: 0 0 4px 4px;
 }
 
 .skills .item {
@@ -394,11 +407,16 @@ body {
 
 .connect,
 .subscribe {
+  display: flex;
+  flex-wrap: wrap;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  padding-top: 57px;
+}
+
+.subscribe {
+  width: 570px;
 }
 
 .develop {
@@ -408,20 +426,18 @@ body {
   line-height: 2;
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.social-icon:hover,
-.social-icon:focus {
-  background-color: var(--accent-color);
+  padding-top: 18px;
+  padding-bottom: 21px;
 }
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .logo-cont {
   margin-top: 45px;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
 
 .address .item {
@@ -434,13 +450,15 @@ body {
 
 .address-container {
   margin-right: 69px;
+  width: 230px;
 }
 
 .connect {
   margin-right: 94px;
+  width: 210px;
 }
 
-.connect .social {
+.social-footer {
   margin-top: 20px;
 }
 
@@ -449,20 +467,26 @@ body {
   justify-content: center;
   margin-right: 32px;
   margin-left: 32px;
+  padding-bottom: 20px;
 }
 
-.social .item + .item {
+.social .item + .item,
+.social-footer .item + .item {
   margin-left: 10px;
+}
+
+.social-footer {
+  display: flex;
+  justify-content: center;
 }
 
 .subscribe .button {
   margin-top: 20px;
   margin-bottom: 50px;
+  margin-right: auto;
 }
 
 .develop-container {
   display: block;
   text-align: center;
-  padding-top: 18px;
-  padding-bottom: 21px;
 }

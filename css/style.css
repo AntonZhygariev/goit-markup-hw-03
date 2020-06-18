@@ -108,7 +108,7 @@ body {
 }
 
 .top-nav {
-  padding-left: 85px;
+  margin-left: 85px;
 }
 
 .site-nav .item + .item {
@@ -126,6 +126,7 @@ body {
 .header-nav {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 .address-nav {
@@ -406,6 +407,7 @@ body {
   font-size: 12px;
   line-height: 2;
   text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .social-icon:hover,
